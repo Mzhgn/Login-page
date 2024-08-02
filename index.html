@@ -15,13 +15,13 @@
   </head>
   <body>
     <div class="container">
-      <div class="circle pink-circle"></div>
       <div class="circle purple-circle"></div>
+      <div class="circle pink-circle"></div>
 
       <form action="#" class="form">
-        <h2>Login Here</h2>
-        <div>
-          <label for="username"></label>
+        <h2 class="title">Login Here</h2>
+        <div class="user-input">
+          <label for="username" class="label username__label">Username</label>
           <input
             type="text"
             class="form__input"
@@ -30,15 +30,15 @@
           />
         </div>
         <div>
-          <label for="password"></label>
+          <label for="password" class="label password__label">Password</label>
           <input
-            type="text"
+            type="password"
             class="form__input"
             id="password"
             placeholder="Password"
           />
         </div>
-        <button type="submit" class="btn">Log in</button>
+        <button type="submit" class="form__btn">Log in</button>
       </form>
     </div>
   </body>
